@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="Images/musem-low-resolution-logo-color-on-transparent-background.png" class="logo">
+            <ul id="menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="galerie.html">galerie</a></li>
+                <li><a href="atelie.html">ateliée</a></li>
+            </ul>
+            <dir id="icone" onclick="showMenu()"></dir>
+        </nav>
+        <div class="info">
+            <h1>Soyez bienvenue chez nous</h1>
+            <p>Notre atelier de poterie est un lieu magique où la créativité s'épanouit et où l'argile se transforme en
+                magnifiques œuvres d'art. Que vous soyez débutant ou expérimenté, cet atelier est ouvert à tous les
+                amateurs d'art en quête de nouvelles aventures.</p>
+        </div>
+        <div class="hour">
+            <h2>Heures d'ouverture</h2>
+            <p>lundi - jeudi <br>
+                09:00 17:00 <br>
+                vendredi <br>
+                09:00 12:00</p>
+            <p>samedi
+                dimanche
+                fermé</p>
+
+        </div>
+        <div class="reserve">
+            <h3> reservasion</h3>
+
+            <div class="information">
+                <form class="reservation">
+                    <input type="text" id="fullname" placeholder="nom et prénom">
+                   
+                    <input type="tel" id="tele" placeholder="tele">
+                    <input type="email" id="email" placeholder="email">
+                    <input type="text" id="cin" placeholder="CIN">
+
+                    <span class="error" style="display: none;"></span>
+                    <button class="btn-envoyer" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div>
+                    <ul>
+                        <li><a id="nav_footer" href="index.html">Accueil</a></li>
+                        <li><a id="nav_footer" href="galerie.html">Galerie</a></li>
+                        <li><a id="nav_footer" href="atelie.html">ateliers</a></li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="tel"><a href="TEL: +212524132454"></a>TEL: +212524132454</li>
+                        <li class="adress">
+                            <adress>ADRESSE: 09 RUE DARAK QU BIADA SAFI</adress>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <p class="copy">&copy;2023 MUCEM. Tous droits d'auteur réservés.</p>
+
+        </footer>
+        <script src="index.js"> </script>
+        <script src="./validation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="faq.js">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="Images/musem-low-resolution-logo-color-on-transparent-background.png" class="logo">
+            <ul id="menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="galerie.html">galerie</a></li>
+                <li><a href="atelie.html">ateliée</a></li>
+            </ul>
+            <dir id="icone" onclick="showMenu()"></dir>
+        </nav>
+        
+
+        <div class="deu">
+            <h1>A propos</h1>
+            <p>Il y a plusieurs décennies, à Safi, une ville célèbre pour sa poterie, un groupe de potiers locaux a
+                décidé de transformer une ancienne fabrique en un musée de la poterie. Ils ont collecté des pièces
+                anciennes, enseigné les techniques traditionnelles et exposé le travail des artisans locaux. Au fil du
+                temps, le musée est devenu un symbole de la fierté de Safi pour son héritage culturel, attirant des
+                visiteurs du monde entier. Aujourd'hui, il continue de préserver et de promouvoir l'art ancestral de la
+                poterie au Maroc.</p>
+
+        </div>
+    </header>
+    <section class="artist-section">
+        <h2 class="title">
+            DES ARTISTS <br> POPULAIRE
+        </h2>
+        <div class="cards">
+            <div class="artist-card">
+                <img src="./Images/artist1.jpg" alt="artist 1">
+                <h3 class="artist-name">
+                    Mulay Ahmed Serghini
+                </h3>
+            </div>
+            <div class="artist-card">
+                <img src="./Images/artist2.jpg" alt="artist 1">
+                <h3 class="artist-name">
+                    Benbrahim
+                </h3>
+            </div>
+            <div class="artist-card">
+                <img src="./Images/artist3.jpg" alt="artist 2">
+                <h3 class="artist-name">
+                    Thamie
+                </h3>
+            </div>
+        </div>
+    </section>
+    <section class="galerie">
+        <h4>Nos articles</h4>
+        <div class="images">
+            <img src="Images/art1.jpg" alt="image 1">
+            <img src="Images/art2.jpg" alt="image 2">
+            <img src="Images/art3.jpg" alt="image 3">
+        </div>
+        <div>
+            <button type="button"><a href="galerie.html">voir plus</a></button>
+        </div>
+
+    </section>
+    <section class="faq">
+        <h5>FAQ</h5>
+        <details class="accordion-item" open>
+            <summary class="accordion-header">Qu'est-ce que le MUCEM ?</summary>
+            <div class="accordion-content">
+                Le MUCEM, ou Musée de la Céramique, est un établissement culturel qui se consacre à la préservation, à
+                la présentation et à l'étude de la poterie à travers l'histoire.
+
+            </div>
+        </details>
+
+        <details class="accordion-item">
+            <summary class="accordion-header">Où est situé le MUCEM</summary>
+            <div class="accordion-content">
+                Le MUCEM se trouve au 09 RUE DARAK BIADA, dans la ville de SAFI. Vous pouvez consulter notre
+                page "Plan et Accès" pour plus d'informations.
+            </div>
+        </details>
+
+        <details class="accordion-item">
+            <summary class="accordion-header">Quelles sont les heures d'ouverture du MUCEM ?</summary>
+            <div class="accordion-content">
+                Le MUCEM est ouvert LUNDI ~jeudi de 9~ 17. Nous sommes fermés les SAMEDI ET DIMANCHE. Veuillez consulter notre page "Horaires" pour plus de détails.
+            </div>
+        </details>
+
+        <details class="accordion-item">
+            <summary class="accordion-header">Comment puis-je m'inscrire sur le site ?</summary>
+            <div class="accordion-content">
+                Expliquez le processus d'inscription, les informations requises et les avantages d'être membre.
+            </div>
+        </details>
+
+
+    </section>
+    <footer>
+        <div class="container">
+            <div>
+                <ul>
+                    <li><a id="nav_footer" href="index.html">Accueil</a></li>
+                    <li><a id="nav_footer" href="galerie.html">Galerie</a></li>
+                    <li><a id="nav_footer" href="atelie.html">ateliers</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="tel"><a href="TEL: +212524132454"></a>TEL: +212524132454</li>
+                    <li class="adress">
+                        <adress>ADRESSE: 09 RUE DARAK QU BIADA SAFI</adress>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <p class="copy">&copy;2023 MUCEM. Tous droits d'auteur réservés.</p>
+
+    </footer>
+    <script src="index.js"> </script>
+</body>
+
+</html>

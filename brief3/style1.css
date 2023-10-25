@@ -1,0 +1,443 @@
+ @import url('https://fonts.cdnfonts.com/css/freestyle-script');
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Irish+Grover&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;}
+
+
+
+     img {
+         max-width: 100%;
+         height: auto;
+     }
+
+ 
+
+
+ body {
+     overflow-x: hidden;
+ }
+
+ .body {
+     height: 100vh;
+
+ }
+
+ header {
+     background-image: url(Images/SafifBabChaaba-UnterhalbCollineDePottiers\ 1.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 130vh;
+ }
+
+
+ .logo {
+     height: 5em;
+     width: 8em;
+     margin-left: 2em;
+     margin-top: 2em;
+
+
+ }
+
+ nav {
+     display: flex;
+     list-style: none;
+     justify-content: space-between;
+
+ }
+
+
+ nav ul {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 2em;
+
+
+ }
+
+ nav ul li {
+     margin: 4em;
+     list-style: none;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 1.5em;
+     justify-content: space-between;
+     font-family: 'Freestyle Script';
+ }
+ #icone{
+    cursor: pointer;
+    display: none;
+    height: 20px;
+    color: white;
+    font-size: 7rem;
+ }
+
+ .deu {
+     background-color: #58373779;
+     width: 70em;
+     height: 24em;
+     margin: auto;
+
+ }
+
+ h1 {
+     color: #fff;
+     font-weight: 30em;
+     font-size: 3em;
+     display: flex;
+     justify-content: center;
+     font-family: 'Fraunces';
+
+ }
+
+ p {
+     display: flex;
+     color: #fff;
+     justify-content: center;
+     font-size: 1.5em;
+     text-align: center;
+     margin: 3em 5em;
+     font-family: 'Fraunces';
+ }
+
+
+ .artist-section {
+     background: url(./Images/Safi-Kechla-1080x771\ 1.png);
+     height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
+
+ }
+
+ .title {
+     display: flex;
+     justify-content: center;
+     font-size: 3em;
+     padding: 40px;
+     color: #fff;
+     font-weight: 400;
+     font-family: 'Fraunces';
+     text-align: center;
+
+ }
+
+ .cards {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .artist-card {
+     width: 17em;
+     height: 16.81em;
+     background: rgba(135, 65, 65, 0.336);
+     display: flex;
+     flex-direction: column;
+     border-radius: 10px;
+     justify-content: space-around;
+     align-items: center;
+
+
+ }
+
+ .artist-card img {
+     width: 13.5em;
+     height: 8.56em;
+     border-radius: 10px;
+
+ }
+
+ .artist-card h3 {
+     color: #fff;
+     font-family: 'Fraunces';
+     font-size: 2em;
+     text-align: center;
+ }
+
+ .galerie {
+     background-image: url(Images/pottery-kils-Safi-1080x771\ 1.png);
+     height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ h4 {
+     display: flex;
+     justify-content: center;
+     font-size: 3em;
+     padding: 40px;
+     color: #fff;
+     font-weight: 400;
+     font-family: 'Fraunces';
+     text-align: center;
+ }
+
+ .images {
+     display: flex;
+     gap: 100px;
+ }
+
+ .images img {
+     width: 18em;
+     height: 10em;
+     border-radius: 10px;
+
+ }
+
+ button {
+     background: rgba(226, 136, 136, 0.79);
+     width: 484px;
+     height: 71px;
+     border-radius: 10px;
+     align-items: center;
+     border: none;
+ }
+
+ button a {
+     color: #fff;
+     font-size: 30px;
+     font-family: 'Fraunces';
+     text-align: center;
+     text-decoration: none;
+ }
+
+ .faq {
+     background-image: url(Images/abstract-smooth-brown-wall-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color\ 1.png);
+     height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+
+
+ }
+h5{
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Fraunces';
+}
+
+ .accordion-item {
+     border-style: none;
+     margin-bottom: .5rem;
+ }
+
+ .accordion-header {
+     background-color: #f5f5f5;
+     cursor: pointer;
+     padding: .5rem;
+     font-weight: 500;
+     font-family: 'Fraunces';
+     border-radius: 10px;
+ }
+
+ .accordion-content {
+     display: none;
+     padding: .5rem;
+     font-family: 'Fraunces';
+     color: #fff;
+ }
+
+ .accordion-item[open] .accordion-content {
+     display: block;
+ }
+
+ footer {
+     background-image: url(Images/jessica-ruscello-G8vPQ-XVxxY-unsplash\ 1.png);
+     height: 75vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
+
+ }
+
+ .container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 2em 0;
+ }
+
+ footer ul {
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+     row-gap: 40px;
+     column-gap: 20px;
+
+ }
+
+ #nav_footer {
+     color: white;
+     text-decoration: none;
+     font-family: 'Fraunces';
+     font-size: 1.5em;
+
+ }
+
+ .tel {
+     color: white;
+     text-decoration: none;
+     font-family: 'Fraunces';
+     font-size: 1.5em;
+
+ }
+
+ .adress {
+     color: white;
+     text-decoration: none;
+     font-family: 'Fraunces';
+     font-size: 1em;
+ }
+
+ .copy {
+     
+        color: #fff;
+        text-align: center;
+        margin-top: 10em;
+        font-size: 1.5em;
+        font-family: 'Fraunces';
+ }
+ .showMenu{
+    display: block !important;
+    position: absolute;
+    left: 41%;
+    top: 0;
+}
+
+ 
+ @media(max-width:760px) {
+   #icone{
+    display: block;
+   }
+   #icone:before {
+    content: "\2630";
+   }
+   nav ul{
+    position: fixed;
+    left: -100%;
+    top: 5%;
+    flex-direction: column;
+    background: rgba(165, 42, 42, 0.555);
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
+   }
+       .deu{
+        height: 9em;
+    }
+
+     .cards {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     header {
+         height: 70vh;
+     }
+
+     .artist-card {
+         margin-bottom: 2%;
+         height: 12.8em;
+
+     }
+
+     .images {
+         flex-direction: column;
+         gap: 20px;
+     }
+
+     .galerie {
+         justify-content: space-between;
+         
+     }
+
+     button {
+         width: 300px;
+         margin-bottom: 8%;
+     }
+
+     .container {
+         flex-direction: column;
+     }
+
+     footer ul {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .adress {
+         text-align: center;
+         font-size: 1.2em;
+     }
+
+     footer {
+         height: 95vh;
+         width: 176vw;
+     }
+
+     .deu {
+         width: 23em;
+     }
+
+     p {
+         font-size: 0.5em;
+         margin: 0 0;
+     }
+
+     h1 {
+         font-size: 1.4em;
+         padding: 5%;
+         text-align: center;
+     }
+     .artist-card img {
+        height: 7em;
+        
+     }
+     .artist-card  h3{
+        font-size: 1.7em;
+    }
+    .artist-section{
+        height: 170vh;
+    }
+    .galerie {
+        height: 105vh;
+        width: 176vw;
+    }
+    .artist-section {
+        height: 115vh;
+        width: 176vw;
+    }
+    header {
+        height: 54vh;
+        width: 176vw;
+    }
+    .faq{
+        width: 176vw;
+    }
+    
+
+
+
+ }

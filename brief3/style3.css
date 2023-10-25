@@ -1,0 +1,332 @@
+@import url('https://fonts.cdnfonts.com/css/freestyle-script');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Irish+Grover&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+}
+
+body {
+
+    background-image: url(Images/outils-ceramique-poterie-nature-morte\ \(1\)\ 1.png);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo {
+    height: 5em;
+    width: 8em;
+    margin-left: 2em;
+    margin-top: 2em;
+
+
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+
+
+}
+
+nav ul li {
+    margin: 4em;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    justify-content: space-between;
+    font-family: 'Freestyle Script';
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 6.25em;
+    margin: 0 0.5em;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info p {
+    color: #FFF;
+    font-family: 'Fraunces';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0.5em;
+
+}
+
+.hour {
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Fraunces';
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2em;
+}
+
+.hour p {
+    color: #FFF;
+    font-family: 'Fraunces';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0.5em;
+}
+
+.reserve {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: 'Fraunces';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.reservation input {
+    display: block;
+    width: 40%;
+    padding: 11px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.reservation button {
+    background: rgba(226, 136, 136, 0.79);
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+footer {
+    background-image: url(Images/jessica-ruscello-G8vPQ-XVxxY-unsplash\ 1.png);
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    row-gap: 40px;
+    column-gap: 20px;
+
+}
+
+#nav_footer {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-size: 1.5em;
+
+}
+
+.tel {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-size: 1.5em;
+
+}
+
+.adress {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-size: 1.5em;
+}
+
+.copy {
+
+    color: #fff;
+    text-align: center;
+    margin-top: 5em;
+    font-size: 1.5em;
+    font-family: 'Fraunces';
+}
+#icone{
+    cursor: pointer;
+    display: none;
+    height: 20px;
+    color: white;
+    font-size: 5em;
+ }
+ .showMenu{
+    display: block !important;
+    position: absolute;
+    left: 41%;
+    top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #icone{
+        display: block;
+        
+       }
+       #icone:before {
+        content: "\2630";
+       }
+       nav ul{
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        background: rgba(165, 42, 42, 0.555);
+        width: 100%;
+        text-align: center;
+        transition: 0.2s;
+    
+       }
+
+    body {
+        width: 128vh;
+        height: 424vh;
+    
+    }
+
+
+    .info {
+        width: 90%;
+    
+    }
+    h1{
+        font-size: 6em;
+        width: 13em;
+        
+
+    }
+   
+    h2{
+        font-size: 3.5em;
+    }
+    .hour{
+        flex-direction: column;
+        height: 58em;
+        width: 304vw;
+    }
+    .hour p{
+        font-size: 3em;
+    }
+    .reservation input {
+        width: 35em;
+        height: 5em;
+        margin-left: 215px;
+        
+    }
+    .reservation input::placeholder{
+        font-size: 2em;
+    }
+    h3{
+        margin-left: 3em;
+    }
+    .reservation button{
+        height: 5em;
+    margin-left: 16em;
+    }
+
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adress {
+        text-align: center;
+        font-size: 1.em;
+    }
+
+    footer {
+        height: 100vh;
+        width: 413vw;
+        margin: -2em;
+        margin-top: 18em;
+    }
+    .container {
+        flex-direction: column;
+    }
+   nav ul{
+    display: none;
+   }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
